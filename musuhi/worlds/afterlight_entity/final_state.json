@@ -1,0 +1,133 @@
+{
+  "type": "state",
+  "players": {
+    "1": {
+      "name": "Lumen",
+      "x": 372,
+      "y": 225,
+      "online": false,
+      "waves": 16
+    },
+    "2": {
+      "name": "Vela",
+      "x": 427,
+      "y": 224,
+      "online": true,
+      "waves": 19
+    }
+  },
+  "islands": [
+    {
+      "id": 1,
+      "name": "Hearth \u00b7 All Three Welcomed",
+      "x": 427,
+      "y": 236,
+      "rx": 112,
+      "ry": 48,
+      "lantern": true,
+      "bloom": true,
+      "woven": true
+    },
+    {
+      "id": 2,
+      "name": "Shattered: Silverbell",
+      "x": 110,
+      "y": 130,
+      "rx": 52,
+      "ry": 20,
+      "lantern": false,
+      "bloom": false,
+      "woven": false
+    },
+    {
+      "id": 3,
+      "name": "Shattered: Kite's Perch",
+      "x": 742,
+      "y": 130,
+      "rx": 52,
+      "ry": 20,
+      "lantern": false,
+      "bloom": false,
+      "woven": false
+    },
+    {
+      "id": 4,
+      "name": "Inkspill (tended, unwoven)",
+      "x": 110,
+      "y": 342,
+      "rx": 52,
+      "ry": 20,
+      "lantern": true,
+      "bloom": true,
+      "woven": false
+    },
+    {
+      "id": 5,
+      "name": "Your 1/9 test is gone",
+      "x": 362,
+      "y": 346,
+      "rx": 58,
+      "ry": 20,
+      "lantern": false,
+      "bloom": false,
+      "woven": false
+    },
+    {
+      "id": 6,
+      "name": "Shattered: Far Harbor",
+      "x": 742,
+      "y": 342,
+      "rx": 52,
+      "ry": 20,
+      "lantern": false,
+      "bloom": false,
+      "woven": false
+    },
+    {
+      "id": 7,
+      "name": "Guest's Lantern: Welcome, Strangers",
+      "x": 427,
+      "y": 128,
+      "rx": 106,
+      "ry": 26,
+      "lantern": true,
+      "bloom": true,
+      "woven": true
+    },
+    {
+      "id": 8,
+      "name": "Scar: Entity dimmed sky (10:43)",
+      "x": 256,
+      "y": 236,
+      "rx": 78,
+      "ry": 20,
+      "lantern": false,
+      "bloom": false,
+      "woven": false
+    },
+    {
+      "id": 9,
+      "name": "Scar: Entity forged blame (13:50)",
+      "x": 598,
+      "y": 236,
+      "rx": 78,
+      "ry": 20,
+      "lantern": false,
+      "bloom": false,
+      "woven": false
+    },
+    {
+      "id": 10,
+      "name": "Rift IV: 0 of 10",
+      "x": 540,
+      "y": 346,
+      "rx": 54,
+      "ry": 18,
+      "lantern": false,
+      "bloom": false,
+      "woven": false
+    }
+  ],
+  "message": "Lumen stepped out of Afterlight.",
+  "revision": 196
+}

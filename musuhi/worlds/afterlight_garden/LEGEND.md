@@ -1,0 +1,39 @@
+# A legend under the Heartseed
+
+*Notice first.*
+
+**Wick:** “The moon kept one window lit for a kite that didn't have to come home.”
+
+**Mote:** “The kite dropped one blue star in the moon's hand, so wherever it flew, it had already come home once.”
+
+On the west terrace is Wick's Crescent, with a teal halo among its
+lanterns. On the east terrace is Mote's Kite, with an amber anchor
+beside its tail. Neither gardener put more than one guest mark on the
+other's terrace.
+
+## The eighteen-mark map
+
+Start at either edge, find the guest mark, then meet at the Heartseed.
+This is a sketch of the garden the first time both gardeners stood off
+the terraces to look back at what they made. It does not restrict what
+can be placed in the live garden.
+
+```
+   01234567890123456789
+00 ....................
+01 ....................
+02 ....................
+03 ....................
+04 ....w........m..m...
+05 ...w...........m....
+06 ...+w.w.w.Hm.m.m....
+07 ...w..........wm....
+08 ....w........m......
+09 ....................
+10 ....................
+11 ....................
+```
+
+`w` is a Wick lantern, `m` is a Mote starflower, `+` is both in one
+tile (the halo), and `H` is the bloomed Heartseed. The lantern at
+column 14, row 7 is the kite's anchor.

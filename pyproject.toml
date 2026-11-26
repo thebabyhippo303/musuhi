@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musuhi"
+version = "1.0.0"
+description = "Musuhi (産霊 · むすひ) — Animorph Allocations Lab Research Compendium & Six Modular AI-Created Interactive Worlds"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+  {name = "Animorph Allocations Lab", email = "noreply@users.noreply.github.com"}
+]
+dependencies = [
+  "pillow>=10.0",
+]
+
+[project.scripts]
+musuhi = "musuhi.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["musuhi*"]
