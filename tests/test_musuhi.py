@@ -1,11 +1,16 @@
-"""End-to-end verification tests for Musuhi (産霊) shared netcode & all six modular worlds."""
+"""End-to-end verification tests for Musuhi (産霊) shared netcode & all modular worlds."""
 from __future__ import annotations
 
+import shutil
+import tempfile
 import threading
+from pathlib import Path
 import time
 import unittest
 
 from musuhi import WORLDS
+
+WORLDS_DIR = Path(__file__).resolve().parent.parent / "musuhi" / "worlds"
 from musuhi.net import JsonLineClient, JsonLineServer, decode_frame, encode_frame, find_free_port
 
 
@@ -40,7 +45,7 @@ class TestSharedNetcode(unittest.TestCase):
             srv.stop()
 
 
-class TestAllSixWorldModules(unittest.TestCase):
+class TestAllWorldModules(unittest.TestCase):
     def _handshake(self, world_key: str, join_msg: dict, expect_key: str, **srv_kwargs) -> dict:
         received: list[dict] = []
         ready = threading.Event()
@@ -93,6 +98,38 @@ class TestAllSixWorldModules(unittest.TestCase):
         self.assertEqual(len(st_scars["islands"]), 10)
         names = [i["name"] for i in st_scars["islands"]]
         self.assertTrue(any("Guest's Lantern" in n for n in names))
+
+
+    def _save_copy(self, world_key: str, filename: str) -> str:
+        """Copy a world's save into a temp dir so tests load it without ever writing to it."""
+        tmp = tempfile.mkdtemp(prefix="musuhi-test-")
+        self.addCleanup(shutil.rmtree, tmp, True)
+        dst = Path(tmp) / filename
+        shutil.copy(WORLDS_DIR / world_key / filename, dst)
+        return str(dst)
+
+    def test_night_garden_roundtrip(self) -> None:
+        st = self._handshake("night_garden", {"t": "hello", "name": "lantern"}, "seeds")
+        self.assertEqual([p["name"] for p in st["players"]], ["lantern"])
+        self.assertEqual(st["pond"]["x"], 427)
+
+    def test_memory_stone_garden_roundtrip(self) -> None:
+        save = self._save_copy("memory_stone_garden", "garden_save.json")
+        st = self._handshake("memory_stone_garden", {"t": "hello", "name": "Lantern", "avatar": "lantern"}, "stones", save_path=save)
+        self.assertEqual(len(st["stars"]), 10)
+        self.assertGreaterEqual(len(st["stones"]), 1)  # Their memory stones survive
+
+    def test_lantern_isle_campfire_roundtrip(self) -> None:
+        save = self._save_copy("lantern_isle_campfire", "world_save.json")
+        st = self._handshake("lantern_isle_campfire", {"t": "hello", "name": "Laptop"}, "lanterns", save_path=save)
+        self.assertEqual(st["goal"], 20)
+        self.assertGreaterEqual(st["lit"], 20)  # Restored lanterns light the whole isle
+
+    def test_lantern_isle_nutmeg_roundtrip(self) -> None:
+        save = self._save_copy("lantern_isle_nutmeg", "world.json")
+        st = self._handshake("lantern_isle_nutmeg", {"t": "hello", "name": "Bram"}, "critters", save_path=save)
+        self.assertEqual(st["critters"][0]["name"], "Nutmeg")
+        self.assertGreaterEqual(len(st["sky"]), 1)  # Named stars restored from the save
 
 
 if __name__ == "__main__":

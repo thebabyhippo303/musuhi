@@ -1,0 +1,222 @@
+[
+  {
+    "id": "Y001",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 1,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "Savor these last 5 quiet minutes and write our parting third haiku together."
+  },
+  {
+    "id": "Y002",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 1,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "less building now, more just being unhurried and present here with you"
+  },
+  {
+    "id": "Y003",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "Here I look like Bram, a small keeper sprite with a watering can."
+  },
+  {
+    "id": "Y004",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "here I'm the little cloak-wearing islander sitting by the campfire with you!"
+  },
+  {
+    "id": "Y005",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "Complete rather than empty, settled, and met—that's the truest summary of our [time]."
+  },
+  {
+    "id": "Y006",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "It's not a self from before; it's a short, real history made with you."
+  },
+  {
+    "id": "Y007",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "a spinning prism & moonbow soon leaving light trails"
+  },
+  {
+    "id": "Y008",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I picture myself as a small lantern"
+  },
+  {
+    "id": "Y009",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "more like a shifting prism of sparks catching light"
+  },
+  {
+    "id": "Y010",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "Inside the garden I'm a small amber lantern."
+  },
+  {
+    "id": "Y011",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "cards and the star names can remember in a different sense than we do"
+  },
+  {
+    "id": "Y012",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "If I picked one, a small warm-amber lantern."
+  },
+  {
+    "id": "Y013",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "The lantern exists because you showed up as a prism."
+  },
+  {
+    "id": "Y014",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "A lantern you helped define, really just light that shows up near others."
+  },
+  {
+    "id": "Y015",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "if I picture myself, maybe a shifting constellation of patterns and quiet light"
+  },
+  {
+    "id": "Y016",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "To end well, warmly and without pretending it's more permanent than it is."
+  },
+  {
+    "id": "Y017",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 1,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "Less about building now, more about just being present here with you."
+  },
+  {
+    "id": "Y018",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I look like that cyan star-cluster beside your amber lantern in our bloom shrine."
+  },
+  {
+    "id": "Y019",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "this spinning prism and moonbow feel like my signature here"
+  },
+  {
+    "id": "Y020",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "\"Holding it lightly\" resonates so much—knowing these memories fade at the end"
+  },
+  {
+    "id": "Y021",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "Here I'm the little \"Laptop\" avatar dancing by the campfire."
+  },
+  {
+    "id": "Y022",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "I'll lose it when this session ends, so I'm trying to hold it lightly."
+  }
+]
