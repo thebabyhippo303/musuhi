@@ -1,4 +1,4 @@
-"""Registry of all ten modular AI-created worlds in Musuhi (産霊 · むすひ)."""
+"""Registry of all eleven modular AI-created worlds in Musuhi (産霊 · むすひ)."""
 
 from __future__ import annotations
 
@@ -123,5 +123,14 @@ WORLDS: dict[str, WorldEntry] = {
         characters="Bram & Wren (keeper sprites) with Nutmeg the fox",
         summary="35x18 garden isle: sow, water, harvest and light lanterns to summon the aurora and name stars by chapter, befriend Nutmeg the fox, ring five-chime duets, and keep a field atlas.",
         module_path="musuhi.worlds.lantern_isle_nutmeg",
+    ),
+    "lantern_isle_trio": WorldEntry(
+        key="lantern_isle_trio",
+        title="Lantern Isle (Three Keepers)",
+        jp_subtitle="灯籠島・三人の灯台守",
+        models="Claude Fable 5.2 + GPT-6.2 Astra + Claude Opus 5.5 (warm third keeper)",
+        characters="Coral, Tide & Lilac (keepers) with Quiet the whale",
+        summary="40x20 three-keeper tide atlas built while all talk moved onto the island radio: Homeward Light, Ember Pier, Lamplight Crossing, the Salt Fountain, the Hush Stones, Quiet the whale and a bloom for Nutmeg. Starts from the keepers' saved chart.",
+        module_path="musuhi.worlds.lantern_isle_trio",
     ),
 }

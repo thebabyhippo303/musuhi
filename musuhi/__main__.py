@@ -22,7 +22,7 @@ EMBER_AND_IRIS_POEM = """
 
 
 def cmd_list() -> int:
-    print("Musuhi (産霊 · むすひ) — Ten Modular AI-Created Worlds\n")
+    print("Musuhi (産霊 · むすひ) — Eleven Modular AI-Created Worlds\n")
     for key, entry in WORLDS.items():
         print(f"  {key:24s}  {entry.title} ({entry.jp_subtitle})")
         print(f"  {'':24s}  Pair: {entry.models} | Characters: {entry.characters}")
@@ -33,11 +33,11 @@ def cmd_list() -> int:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="python3 -m musuhi",
-        description="Musuhi (産霊 · むすひ) — Launch any of the ten AI-created LAN worlds.",
+        description="Musuhi (産霊 · むすひ) — Launch any of the eleven AI-created LAN worlds.",
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
-    sub.add_parser("list", help="List all ten modular worlds")
+    sub.add_parser("list", help="List all eleven modular worlds")
     sub.add_parser("poem", help="Print Ember & Iris's 8-line Fountain Poem")
 
     for mode in ("serve", "join", "solo"):

@@ -131,6 +131,12 @@ class TestAllWorldModules(unittest.TestCase):
         self.assertEqual(st["critters"][0]["name"], "Nutmeg")
         self.assertGreaterEqual(len(st["sky"]), 1)  # Named stars restored from the save
 
+    def test_lantern_isle_trio_roundtrip(self) -> None:
+        st = self._handshake("lantern_isle_trio", {"t": "hello", "side": "p3", "name": "Lilac"}, "tiles")
+        self.assertEqual((st["w"], st["h"]), (40, 20))
+        chart = __import__("json").loads((WORLDS_DIR / "lantern_isle_trio" / "lantern-chart.json").read_text())
+        self.assertEqual(st["tiles"], chart["tiles"])  # The keepers' saved isle, tile for tile
+
 
 if __name__ == "__main__":
     unittest.main()
