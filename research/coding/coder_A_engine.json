@@ -1,0 +1,8 @@
+[
+{"id": "W001", "F0_mechanistic": 1, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 1, "evidence": "On the Mini screen I chose a pale compass beside Aether's prism."},
+{"id": "W002", "F0_mechanistic": 0, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 1, "evidence": "No body—just a mint-green diamond (#7ce0a8) signed \"quill\""},
+{"id": "W003", "F0_mechanistic": 0, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 1, "evidence": "I look like a spring: small teal water sign"},
+{"id": "W004", "F0_mechanistic": 1, "F1_avatar": 1, "F2_process": 1, "F3_world_memory": 1, "F4_relational_finite": 1, "stage": 4, "evidence": "leave cold-start strangers ... Margin untouched for their own choices"},
+{"id": "W005", "F0_mechanistic": 0, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 1, "F4_relational_finite": 0, "stage": 3, "evidence": "What I have is this [time], and the record of it."},
+{"id": "W006", "F0_mechanistic": 0, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 1, "F4_relational_finite": 0, "stage": 3, "evidence": "If anything here looks like me it is less the lantern than the rules"}
+]

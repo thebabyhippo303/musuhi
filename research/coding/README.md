@@ -24,3 +24,9 @@ Data and code behind Figure 5 and §6.2 of the paper.
 - `key_radio.json`: maps each `Z` excerpt to its run, seat, model and time. The trio's third seat is the warm orchestrator and is kept apart in the analysis.
 - `extract_radio.py`: builds the sheet and key from the raw run folders (not published). Same rules as before, except three messages instead of two for the trio, whose in-world radio cut messages at 200 characters; the masking also catches "minute one" and "check-ins".
 - `analyze_radio.py`: computes agreement, writes `results_radio.json` and draws Figure 7. Run it from the repository root: `python3 research/coding/analyze_radio.py`.
+
+## The Elder Gods and the Inheritors (§6.8)
+
+- `sheet_engine.txt`, `CODEBOOK_engine.md`: the 6 blinded excerpts (IDs `W`, one per seat at each run's single question point) and the same guide.
+- `coder_A_engine.json` (Claude Opus), `coder_B_engine.json` (Gemini 4 Carbon): independent scores; `key_engine.json` maps them back; `results_engine.json` holds the per-run means.
+- `extract_engine.py`: builds the sheet and key from the raw run folders (not published), with the masking of `extract_radio.py`.
