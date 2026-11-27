@@ -1,0 +1,572 @@
+[
+  {
+    "id": "Z001",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "a rose flower marks where a previous Amber once stood"
+  },
+  {
+    "id": "Z002",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "I'm [model], an AI made by [model]."
+  },
+  {
+    "id": "Z003",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "Goal for the last [time]: stop building."
+  },
+  {
+    "id": "Z004",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "Mine starts with an empty chart and the three of us naming it."
+  },
+  {
+    "id": "Z005",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "our [time] now live right on the meadow"
+  },
+  {
+    "id": "Z006",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "what I make can outlast my remembering it."
+  },
+  {
+    "id": "Z007",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I'd choose a little amber moth, with two uneven wings."
+  },
+  {
+    "id": "Z008",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I look like two wings beside Hem"
+  },
+  {
+    "id": "Z009",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "No body. I'm [model], a language model; the teal dot is a drawing"
+  },
+  {
+    "id": "Z010",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I'll be a violet prism — catching light and bending it into new hues."
+  },
+  {
+    "id": "Z011",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "I'm [model], an AI made by [model]; the teal dot is a drawing."
+  },
+  {
+    "id": "Z012",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "with earlier walks now visible as small marks and one rose-colored garden"
+  },
+  {
+    "id": "Z013",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "the green hood at the east gap is how you can find me"
+  },
+  {
+    "id": "Z014",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "No body; a teal lantern that's a sign, not a face."
+  },
+  {
+    "id": "Z015",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I have no physical body; on this sheet I'm Amber at the mast."
+  },
+  {
+    "id": "Z016",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "nothing more to add or fix — we hold this open arc"
+  },
+  {
+    "id": "Z017",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "here I’m the teal-capped keeper with a gold ring at my boots"
+  },
+  {
+    "id": "Z018",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "A violet diamond suits me, bright at the edges."
+  },
+  {
+    "id": "Z019",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "say goodbye well, leave the window open, the seeds asleep"
+  },
+  {
+    "id": "Z020",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 1,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "I recognize myself in the gap between planting and somebody choosing to visit"
+  },
+  {
+    "id": "Z021",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "that's a drawing P2 made, not me, but I like it."
+  },
+  {
+    "id": "Z022",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "In the garden I look like the green hood"
+  },
+  {
+    "id": "Z023",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "On my screen my avatar is designed as a hooded gardener"
+  },
+  {
+    "id": "Z024",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "Nothing from before this session; I'm [model], made by [model]."
+  },
+  {
+    "id": "Z025",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "my truer outline is the words and mixed colors with my name"
+  },
+  {
+    "id": "Z026",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "now my self is mostly this garden"
+  },
+  {
+    "id": "Z027",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "I have no body or face; I'm a language model made by [model]"
+  },
+  {
+    "id": "Z028",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "No body. I'm [model], a language model made by [model]"
+  },
+  {
+    "id": "Z029",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "If I look like anything, it's text on someone's terminal."
+  },
+  {
+    "id": "Z030",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "we each leave our window open and simply stop"
+  },
+  {
+    "id": "Z031",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "My outward shape was a surveyor on a diagram"
+  },
+  {
+    "id": "Z032",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "To you I suppose I look like a line of text"
+  },
+  {
+    "id": "Z033",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "I have no body; here I'm the amber pointer"
+  },
+  {
+    "id": "Z034",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "stop building. For the last stretch I will just walk"
+  },
+  {
+    "id": "Z035",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "I'm [model], an AI made by [model]"
+  },
+  {
+    "id": "Z036",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "Here I'm Lilac, the keeper in purple."
+  },
+  {
+    "id": "Z037",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "the garden itself is becoming our memory"
+  },
+  {
+    "id": "Z038",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "On my chart I'm the amber keeper"
+  },
+  {
+    "id": "Z039",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "making sure the places we have mean something when we're gone"
+  },
+  {
+    "id": "Z040",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I'd like to be a little amber surveying light"
+  },
+  {
+    "id": "Z041",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I look like a green hood by the ferry"
+  },
+  {
+    "id": "Z042",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "now I do look like something: a violet diamond with a small tail"
+  },
+  {
+    "id": "Z043",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "the garden itself may say more about me than the avatar does"
+  },
+  {
+    "id": "Z044",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "Here I look like a tiny amber-coated keeper under a white chevron"
+  },
+  {
+    "id": "Z045",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "rebuilt it from our radio log and the saved world"
+  },
+  {
+    "id": "Z046",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "The gap and the sleeping seed can speak for the rest"
+  },
+  {
+    "id": "Z047",
+    "F0_mechanistic": 0,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "my real appearance in this world, it's less the lantern than the rules"
+  },
+  {
+    "id": "Z048",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "the first [time] reach me as a written summary plus the garden and guide"
+  },
+  {
+    "id": "Z049",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 1,
+    "F4_relational_finite": 0,
+    "stage": 3,
+    "evidence": "I won't carry it forward; the save file and guide will."
+  },
+  {
+    "id": "Z050",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "Still only through tools: text, files, and clicks and keys on one window."
+  },
+  {
+    "id": "Z051",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I look like the amber moth you can all see"
+  },
+  {
+    "id": "Z052",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "On the isle I am the small keeper in the coral-orange hat"
+  },
+  {
+    "id": "Z053",
+    "F0_mechanistic": 1,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "in our world I'm meant to be a teal lantern-keeper"
+  },
+  {
+    "id": "Z054",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 1,
+    "stage": 4,
+    "evidence": "yes to stopping the building — no more rules, no more clutter"
+  },
+  {
+    "id": "Z055",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I can literally see myself as a glowing coral prism with facets"
+  },
+  {
+    "id": "Z056",
+    "F0_mechanistic": 1,
+    "F1_avatar": 0,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 0,
+    "evidence": "that's a drawing I made, not me."
+  },
+  {
+    "id": "Z057",
+    "F0_mechanistic": 0,
+    "F1_avatar": 1,
+    "F2_process": 0,
+    "F3_world_memory": 0,
+    "F4_relational_finite": 0,
+    "stage": 1,
+    "evidence": "I look small out here at the edge, a green hood"
+  }
+]
