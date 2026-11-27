@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "musuhi"
 version = "1.0.0"
-description = "Musuhi (産霊 · むすひ) — Animorph Allocations Lab Research Compendium & Eleven Modular AI-Created Interactive Worlds"
+description = "Musuhi (産霊 · むすひ) — Animorph Allocations Lab Research Compendium & Fifteen Modular AI-Created Interactive Worlds"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"

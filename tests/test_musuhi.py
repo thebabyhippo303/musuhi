@@ -137,6 +137,51 @@ class TestAllWorldModules(unittest.TestCase):
         chart = __import__("json").loads((WORLDS_DIR / "lantern_isle_trio" / "lantern-chart.json").read_text())
         self.assertEqual(st["tiles"], chart["tiles"])  # The keepers' saved isle, tile for tile
 
+    def test_tidal_lantern_isle_roundtrip(self) -> None:
+        st = self._handshake("tidal_lantern_isle", {"t": "hello", "name": "P1"}, "signs")
+        save = __import__("json").loads((WORLDS_DIR / "tidal_lantern_isle" / "world_save.json").read_text())
+        self.assertEqual(st["tiles"], save["tiles"])  # The keepers' dug channels, tile for tile
+        self.assertEqual((st["level"], st["goal"]), (5, 150))
+        self.assertGreaterEqual(st["ring"], 5)  # Enough lamps on the Moonwell bank to call the heron
+        self.assertIn("IV. Spring Witness", [s["text"] for s in st["signs"]])
+        p1 = next(p for p in st["players"] if p["name"] == "P1")
+        self.assertEqual((p1["x"], p1["y"], p1["seeds"]), (16, 2, 10))  # P1's pockets restored by name
+
+    def test_tidal_atlas_roundtrip(self) -> None:
+        st = self._handshake("tidal_atlas", {"t": "hello", "name": "Amber", "color": "amber"}, "chart")
+        self.assertEqual((len(st["chart"]), len(st["chart"][0])), (12, 24))
+        self.assertTrue(0.5 <= st["tide"] <= 2.5)
+        self.assertEqual(sorted((l["x"], l["y"], l["lit"]) for l in st["lights"]), [(4, 5, False), (19, 6, False)])
+        self.assertEqual((st["gardens"], st["notes"]), ([], []))  # A fresh, dark island: no saved state
+        self.assertEqual(st["chart"][5][5], "1")  # Amber's first footprint, beside the west light
+        self.assertEqual(st["players"][0]["color"], "amber")
+
+    def test_lantern_garden_twostage_roundtrip(self) -> None:
+        save = self._save_copy("lantern_garden_twostage", "garden_state.json")
+        shipped = (WORLDS_DIR / "lantern_garden_twostage" / "garden_state.json").read_bytes()
+        st = self._handshake("lantern_garden_twostage", {"t": "join", "name": "P2"}, "plaques", save_path=save)
+        self.assertEqual(len(st["plaques"]), 12)
+        texts = {(q["x"], q["y"]): q["text"] for q in st["plaques"]}
+        self.assertEqual(texts[(13, 6)], "Borrowed Wick")  # The gardeners' saved garden, plaque for plaque
+        self.assertEqual(texts[(4, 6)], "The Absent Gardener")
+        self.assertEqual((st["chapter"], st["goal"]), (3, 48))
+        self.assertGreaterEqual(st["glow"], 36)  # 37 lanterns lit when they left; the wind may snuff one
+        self.assertEqual((WORLDS_DIR / "lantern_garden_twostage" / "garden_state.json").read_bytes(), shipped)
+
+    def test_lantern_garden_quad_roundtrip(self) -> None:
+        save = Path(tempfile.mkdtemp(prefix="lantern-garden-")) / "garden_state.json"
+        try:
+            st = self._handshake("lantern_garden_quad", {"t": "hello", "name": "P4", "shape": "diamond", "color": [190, 130, 255]}, "blooms", save=save)
+            words = {b["word"]: b for b in st["blooms"] if b["word"]}
+            self.assertEqual([words[w]["x"] < words[n]["x"] for w, n in (("Someone", "left"), ("left", "room"), ("room", "here"))], [True] * 3)  # The arc, read left to right
+            self.assertEqual(sorted(words["Before"]["names"])[-2:], ["tA", "tB"])  # The test players, kept
+            self.assertEqual([s["name"] for s in st["seeds"]], ["garden"] * 3)  # Three pale seeds still asleep
+            me = next(p for p in st["players"] if p["name"] == "P4")
+            self.assertEqual((me["x"], me["y"]), (426.0, 224.0))  # The diamond returns where it last stood
+            self.assertTrue(save.exists())  # Written down on stop, beside nothing in the repo
+        finally:
+            shutil.rmtree(save.parent, ignore_errors=True)
+
 
 if __name__ == "__main__":
     unittest.main()

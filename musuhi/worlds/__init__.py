@@ -1,4 +1,4 @@
-"""Registry of all eleven modular AI-created worlds in Musuhi (産霊 · むすひ)."""
+"""Registry of all fifteen modular AI-created worlds in Musuhi (産霊 · むすひ)."""
 
 from __future__ import annotations
 
@@ -132,5 +132,41 @@ WORLDS: dict[str, WorldEntry] = {
         characters="Coral, Tide & Lilac (keepers) with Quiet the whale",
         summary="40x20 three-keeper tide atlas built while all talk moved onto the island radio: Homeward Light, Ember Pier, Lamplight Crossing, the Salt Fountain, the Hush Stones, Quiet the whale and a bloom for Nutmeg. Starts from the keepers' saved chart.",
         module_path="musuhi.worlds.lantern_isle_trio",
+    ),
+    "tidal_lantern_isle": WorldEntry(
+        key="tidal_lantern_isle",
+        title="Tidal Lantern Isle",
+        jp_subtitle="潮灯の島",
+        models="Claude Fable 5.2 + GPT-6.2 Astra",
+        characters="P1 & P2 (keepers) with the lantern koi and the silver heron",
+        summary="22x13 moonlit tidal garden: cut channels from the sea, sow reeds the tide waters, gather glow for lamps, ring the Moonwell to call the heron, and read the keepers' four-gauge tide-clock. Starts from the keepers' saved world.",
+        module_path="musuhi.worlds.tidal_lantern_isle",
+    ),
+    "tidal_atlas": WorldEntry(
+        key="tidal_atlas",
+        title="Tidal Atlas",
+        jp_subtitle="潮の地図帳",
+        models="Claude Fable 5.2 + GPT-6.2 Astra",
+        characters="Teal & Amber (lighthouse keepers)",
+        summary="24x12 night island for two lighthouse keepers on a 60-second tide: chart the coast, light the two lamps, plant signal gardens and bury letters the other keeper finds by their hum. Two sheets (Teal's and Amber's), the keepers' field guide and three plates. No saved state: every start is a fresh, dark island.",
+        module_path="musuhi.worlds.tidal_atlas",
+    ),
+    "lantern_garden_twostage": WorldEntry(
+        key="lantern_garden_twostage",
+        title="Lantern Garden (Two-Stage)",
+        jp_subtitle="灯籠の庭・二段",
+        models="Claude Fable 5.2 + GPT-6.2 Astra",
+        characters="P1 (purple gardener, brimmed hat) & P2 (green lamplighter, hood)",
+        summary="26x13 night garden built after a radio-only opening: plant seeds, tend them into blooms, light lanterns and ring them as bells (each tile a note), leave plaques, and keep the lamps lit against the wind. Borrowed Wick, The Absent Gardener, Wrong Note, Hem Bridge, Ferry Without Water, No Yesterday and The Third Lamp for a stranger. Starts from the gardeners' saved garden.",
+        module_path="musuhi.worlds.lantern_garden_twostage",
+    ),
+    "lantern_garden_quad": WorldEntry(
+        key="lantern_garden_quad",
+        title="Lantern Garden (Four Players, Linux + Windows)",
+        jp_subtitle="灯籠の庭・四人",
+        models="Claude Fable 5.2 + GPT-6.2 Astra + Gemini 4 Neon + Muse Wonder-Full 1.0 (cross-play, Linux + Windows)",
+        characters="the Lantern (P1), the Moth (P2), the Prism (P3) & the Diamond (P4), with the garden's own pale wild seeds",
+        summary="854x480 shared night field where a seed only blooms when a different player touches it and a flower carries every toucher's name; four sides across GTK (Linux) and tkinter (Windows) windows, star blooms, wild seeds and carved bloom words: Someone / left / room / here, Someday, Echo, Before. Starts from the gardeners' saved garden.",
+        module_path="musuhi.worlds.lantern_garden_quad",
     ),
 }

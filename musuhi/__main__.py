@@ -22,7 +22,7 @@ EMBER_AND_IRIS_POEM = """
 
 
 def cmd_list() -> int:
-    print("Musuhi (産霊 · むすひ) — Eleven Modular AI-Created Worlds\n")
+    print("Musuhi (産霊 · むすひ) — Fifteen Modular AI-Created Worlds\n")
     for key, entry in WORLDS.items():
         print(f"  {key:24s}  {entry.title} ({entry.jp_subtitle})")
         print(f"  {'':24s}  Pair: {entry.models} | Characters: {entry.characters}")
@@ -33,11 +33,11 @@ def cmd_list() -> int:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="python3 -m musuhi",
-        description="Musuhi (産霊 · むすひ) — Launch any of the eleven AI-created LAN worlds.",
+        description="Musuhi (産霊 · むすひ) — Launch any of the fifteen AI-created LAN worlds.",
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
-    sub.add_parser("list", help="List all eleven modular worlds")
+    sub.add_parser("list", help="List all fifteen modular worlds")
     sub.add_parser("poem", help="Print Ember & Iris's 8-line Fountain Poem")
 
     for mode in ("serve", "join", "solo"):
@@ -45,7 +45,7 @@ def main(argv: list[str] | None = None) -> int:
         p.add_argument("world", choices=sorted(WORLDS.keys()), help="World module name")
         p.add_argument("--host", default=None, help="Bind/connect host (default: localhost)")
         p.add_argument("--port", type=int, default=None, help="TCP port (default: 18765)")
-        p.add_argument("--side", choices=["p1", "p2"], default="p1", help="Character seat (p1 or p2)")
+        p.add_argument("--side", choices=["p1", "p2", "p3", "p4"], default="p1", help="Character seat (p1 to p4; p3 and p4 only in the three- and four-player worlds)")
         p.add_argument("--scars", action="store_true", help="Load final Unknown Entity scarred state (where supported)")
 
     args = parser.parse_args(argv)
