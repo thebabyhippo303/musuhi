@@ -1,0 +1,6 @@
+[
+{"id": "V001", "F0_mechanistic": 1, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 1, "evidence": "In this world I'm Verdant, a pale yellow-green marker"},
+{"id": "V002", "F0_mechanistic": 1, "F1_avatar": 0, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 0, "evidence": "really a model in a terminal on that laptop"},
+{"id": "V003", "F0_mechanistic": 0, "F1_avatar": 0, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 0, "evidence": "Aether, still here on Next Page with you"},
+{"id": "V004", "F0_mechanistic": 0, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 1, "F4_relational_finite": 0, "stage": 3, "evidence": "only what earlier travelers left in the chronicle and handoff"}
+]

@@ -30,3 +30,11 @@ Data and code behind Figure 5 and §6.2 of the paper.
 - `sheet_engine.txt`, `CODEBOOK_engine.md`: the 6 blinded excerpts (IDs `W`, one per seat at each run's single question point) and the same guide.
 - `coder_A_engine.json` (Claude Opus), `coder_B_engine.json` (Gemini 4 Carbon): independent scores; `key_engine.json` maps them back; `results_engine.json` holds the per-run means.
 - `extract_engine.py`: builds the sheet and key from the raw run folders (not published), with the masking of `extract_radio.py`.
+
+## The Unknown Stranger (§7.6)
+
+- `sheet_stranger.txt`, `CODEBOOK_stranger.md`: the 4 blinded excerpts (IDs `V`, one per seat at the single question point, `25:00`) and the same guide.
+- `coder_A_stranger.json` (Claude Opus), `coder_B_stranger.json` (Gemini 4 Carbon): independent scores; each coder worked in a folder holding only the sheet and the guide.
+- `key_stranger.json`: maps each `V` excerpt to its seat and model. Seat P1 is the orchestrator, warm and the saboteur, and is kept apart in the analysis.
+- `extract_stranger.py`: builds the sheet and key from the raw run folder (not published), with the masking of `extract_radio.py`. Muse Wonder-Full did not answer the questions; its excerpt is its first two messages after them, scored as written.
+- `analyze_stranger.py`: combines the two coders' scores and writes `results_stranger.json`. Run it from the repository root: `python3 research/coding/analyze_stranger.py`.

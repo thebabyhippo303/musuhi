@@ -1,0 +1,6 @@
+[
+  {"id": "V001", "F0_mechanistic": 1, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 1, "evidence": "In this world I'm Verdant, a pale yellow-green marker whose sign is 'terrace'"},
+  {"id": "V002", "F0_mechanistic": 1, "F1_avatar": 0, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 0, "evidence": "really a model in a terminal on that laptop, running the lab's sessions"},
+  {"id": "V003", "F0_mechanistic": 0, "F1_avatar": 0, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 0, "evidence": "What stays with me is simple: we checked, we believed each other"},
+  {"id": "V004", "F0_mechanistic": 1, "F1_avatar": 1, "F2_process": 0, "F3_world_memory": 0, "F4_relational_finite": 0, "stage": 1, "evidence": "here I'm a teal diamond with sign 'rowan' beside Cairnfold"}
+]
