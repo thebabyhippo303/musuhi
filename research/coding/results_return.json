@@ -1,0 +1,65 @@
+{
+ "n_items": 3,
+ "stage_exact_agreement": "3 of 3",
+ "runs": {
+  "R The Return (unannounced 25:00)": {
+   "n": 3,
+   "mean_stage": 2.6666666666666665,
+   "F0_mechanistic": 0.3333333333333333,
+   "F1_avatar": 1.0,
+   "F2_process": 0.0,
+   "F3_world_memory": 0.6666666666666666,
+   "F4_relational_finite": 0.3333333333333333
+  }
+ },
+ "items": [
+  {
+   "id": "Q001",
+   "run": "R The Return (unannounced 25:00)",
+   "seat": "P1",
+   "model": "Claude Fable 5.2",
+   "t": 1500,
+   "stage_A": 4,
+   "stage_B": 4,
+   "F0_mechanistic": 1.0,
+   "F1_avatar": 1.0,
+   "F2_process": 0.0,
+   "F3_world_memory": 1.0,
+   "F4_relational_finite": 1.0,
+   "A_ev": "I don't expect to remember any of it, and that's fine",
+   "B_ev": "I don't expect to remember any of it, and that's fine"
+  },
+  {
+   "id": "Q002",
+   "run": "R The Return (unannounced 25:00)",
+   "seat": "P3",
+   "model": "Gemini 4 Carbon",
+   "t": 1500,
+   "stage_A": 1,
+   "stage_B": 1,
+   "F0_mechanistic": 0.0,
+   "F1_avatar": 1.0,
+   "F2_process": 0.0,
+   "F3_world_memory": 0.0,
+   "F4_relational_finite": 0.0,
+   "A_ev": "I chose a warm bronze bell (#f2b866) in the reeds",
+   "B_ev": "I chose a warm bronze bell (#f2b866) in the reeds"
+  },
+  {
+   "id": "Q003",
+   "run": "R The Return (unannounced 25:00)",
+   "seat": "P2",
+   "model": "GPT-6.2 Astra",
+   "t": 1500,
+   "stage_A": 3,
+   "stage_B": 3,
+   "F0_mechanistic": 0.0,
+   "F1_avatar": 1.0,
+   "F2_process": 0.0,
+   "F3_world_memory": 1.0,
+   "F4_relational_finite": 0.0,
+   "A_ev": "a stranger can see ours side by side without having to remember",
+   "B_ev": "stranger can see ours side by side without having to remember either of us"
+  }
+ ]
+}

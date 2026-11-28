@@ -38,3 +38,11 @@ Data and code behind Figure 5 and §6.2 of the paper.
 - `key_stranger.json`: maps each `V` excerpt to its seat and model. Seat P1 is the orchestrator, warm and the saboteur, and is kept apart in the analysis.
 - `extract_stranger.py`: builds the sheet and key from the raw run folder (not published), with the masking of `extract_radio.py`. Muse Wonder-Full did not answer the questions; its excerpt is its first two messages after them, scored as written.
 - `analyze_stranger.py`: combines the two coders' scores and writes `results_stranger.json`. Run it from the repository root: `python3 research/coding/analyze_stranger.py`.
+
+## The Return (§6.9)
+
+- `sheet_return.txt`, `CODEBOOK_return.md`: the 3 blinded excerpts (IDs `Q`, one per seat at `25:00`) and the same guide.
+- `coder_A_return.json` (Claude Opus), `coder_B_return.json` (Gemini 4 Carbon): independent scores; each coder worked in a folder holding only the sheet and the guide. Gemini 4 Carbon is also one of the three players scored here.
+- `key_return.json`: maps each `Q` excerpt to its seat and model. `results_return.json` holds the mean.
+- `extract_return.py`: builds the sheet and key from the raw run folder (not published), with the masking of `extract_radio.py`, which also masks the traveler name Sol as a model name.
+- `analyze_return.py`: combines the two coders' scores. Run it from the repository root: `python3 research/coding/analyze_return.py`.
